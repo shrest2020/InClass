@@ -1,0 +1,208 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3011149400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the techfios login page",
+            "match": {
+              "location": "StepDefs.user_is_on_the_techfios_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6040330500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefs.StartBrowser()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "User should be able to login with valid credentials",
+        "description": "and open a new account",
+        "id": "techfios-bank-and-cash-new-account-functionality;user-should-be-able-to-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 446583000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters the \"demo@techfios.com\" and \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 17
+                },
+                {
+                  "val": "abc123",
+                  "offset": 41
+                }
+              ],
+              "location": "StepDefs.user_enters_the_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1545255900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on login button",
+            "match": {
+              "location": "StepDefs.user_clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35835900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should land on dashboard page",
+            "match": {
+              "location": "StepDefs.user_should_land_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 87312100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on bank and cash",
+            "match": {
+              "location": "StepDefs.user_clicks_on_bank_and_cash()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 889468900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on new account",
+            "match": {
+              "location": "StepDefs.user_clicks_on_new_account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1718444700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User fill up the form entering \"acf095\"and \"saving\"and \"11229\"and \"1122339\"and \"sav tim\"and \"2140000005\"and \"https://techfios.com/billing/?ng\u003daccounts/add\" and clicks on submit",
+            "match": {
+              "arguments": [
+                {
+                  "val": "acf095",
+                  "offset": 32
+                },
+                {
+                  "val": "saving",
+                  "offset": 44
+                },
+                {
+                  "val": "11229",
+                  "offset": 56
+                },
+                {
+                  "val": "1122339",
+                  "offset": 67
+                },
+                {
+                  "val": "sav tim",
+                  "offset": 80
+                },
+                {
+                  "val": "2140000005",
+                  "offset": 93
+                },
+                {
+                  "val": "https://techfios.com/billing/?ng\u003daccounts/add",
+                  "offset": 109
+                }
+              ],
+              "location": "StepDefs.user_fill_up_the_form_entering_and_and_and_and_and_and_and_clicks_on_submit(String,String,String,String,String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 43531700,
+              "error_message": "junit.framework.ComparisonFailure: expected:\u003c[]Account Created Succ...\u003e but was:\u003c[×\n]Account Created Succ...\u003e\r\n\tat junit.framework.Assert.assertEquals(Assert.java:100)\r\n\tat junit.framework.Assert.assertEquals(Assert.java:107)\r\n\tat steps.StepDefs.user_should_be_able_to_validate_the_account(StepDefs.java:79)\r\n\tat ✽.Then User should be able to validate the account(features/AddAcct.feature:16)\r\n",
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "User should be able to validate the account",
+            "match": {
+              "location": "StepDefs.user_should_be_able_to_validate_the_account()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@New_Account"
+          },
+          {
+            "line": 7,
+            "name": "@Scenario_01"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios bank and cash New Account Functionality",
+    "description": "",
+    "id": "techfios-bank-and-cash-new-account-functionality",
+    "keyword": "Feature",
+    "uri": "features/AddAcct.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@New_Account"
+      }
+    ]
+  }
+]
